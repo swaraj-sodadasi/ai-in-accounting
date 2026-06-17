@@ -1,0 +1,290 @@
+# ==========================================================
+# PYTHON
+# ==========================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+develop-eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Pylint
+.pylint.d/
+
+# ==========================================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================================
+
+venv/
+env/
+ENV/
+.venv/
+.envrc
+
+# ==========================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================================
+
+.env
+.env.*
+!.env.example
+
+# Secret files
+secrets/
+credentials/
+private/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+
+# AWS
+.aws/
+
+# GCP
+gcp-key.json
+service-account.json
+
+# Azure
+.azure/
+
+# ==========================================================
+# DATABASES
+# ==========================================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL dumps
+*.sql
+
+# MongoDB dumps
+dump/
+
+# ==========================================================
+# LOGS
+# ==========================================================
+
+logs/
+log/
+*.log
+
+# Uvicorn / Gunicorn logs
+uvicorn.log
+gunicorn.log
+
+# Error dumps
+*.out
+*.err
+
+# ==========================================================
+# FASTAPI
+# ==========================================================
+
+instance/
+.openapi.json
+
+# ==========================================================
+# DJANGO
+# ==========================================================
+
+staticfiles/
+media/
+
+# ==========================================================
+# JUPYTER NOTEBOOKS
+# ==========================================================
+
+.ipynb_checkpoints/
+
+# ==========================================================
+# MACHINE LEARNING / DATA SCIENCE
+# ==========================================================
+
+# Model files
+models/
+checkpoints/
+
+# Common ML artifacts
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pickle
+*.pkl
+
+# TensorBoard
+runs/
+tensorboard_logs/
+
+# Datasets
+data/
+datasets/
+
+# Experiment tracking
+mlruns/
+
+# ==========================================================
+# DOCKER
+# ==========================================================
+
+docker-compose.override.yml
+
+# ==========================================================
+# KUBERNETES
+# ==========================================================
+
+*.kubeconfig
+
+# ==========================================================
+# IDES & EDITORS
+# ==========================================================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==========================================================
+# OPERATING SYSTEM FILES
+# ==========================================================
+
+# Linux
+.Trash-*
+.directory
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ==========================================================
+# CI/CD
+# ==========================================================
+
+# GitHub Actions artifacts
+.github/artifacts/
+
+# Jenkins
+.jenkins/
+
+# GitLab
+.gitlab-ci-local/
+
+# ==========================================================
+# TERRAFORM
+# ==========================================================
+
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+
+# ==========================================================
+# SECURITY SCANS
+# ==========================================================
+
+.bandit
+.safety-policy.yml
+
+# ==========================================================
+# MISC
+# ==========================================================
+
+tmp/
+temp/
+cache/
+*.tmp
+
+# Local development configuration
+.local/
+
+# Backup files
+*.bak
+*.backup
+
+# Generated reports
+reports/
